@@ -1513,7 +1513,7 @@ handleSIDCommunication:
 
 					#define max( a, b ) ( (a)>(b)?(a):(b) )
 					#define min( a, b ) ( (a)<(b)?(a):(b) )
-					#ifdef DIAGROM_HACKx
+					#ifdef DIAGROM_HACK
 						if ( DIAGROM_THRESHOLD >= 80 )
 						{
 							if ( abs( newPotXCandidate - newPotYCandidate ) < 10 && newPotXCandidate >= 50 && newPotXCandidate < DIAGROM_THRESHOLD )
